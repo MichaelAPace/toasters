@@ -21,7 +21,7 @@ app.use('/users', users)
 app.use('/groups', groups)
 
 app.all('*', function(req,res,next) {
-  res.sendFile('index.html', { root: ${__dirname} + '/dist/'})
+  res.sendFile('index.html', { root: __dirname + '/dist/'})
 })
 
 app.use(function(req, res, next) {
