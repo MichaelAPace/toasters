@@ -1,6 +1,57 @@
 @import '../utils/variables';
 
 body {
-  background: $diamond;
+  background: $babypowder;
   color: $space_cadet;
+}
+
+.navBar {
+  background: $darkbluish !important;
+  .navLogo {
+    height: 60px;
+    vertical-align: middle;
+  }
+  span {
+    div {
+      background: $toaster !important;
+    }
+  }
+  svg {
+    fill: $toaster !important;
+  }
+
+  .navTabs {
+    height: 65px;
+    background: $toaster !important;
+    color: $darkbluish !important;
+    &:hover {
+      color: white !important;
+    }
+    * {
+      margin-right: 12px !important;
+      padding-left: 12px !important;
+    }
+    span {
+      div {
+        background: $darkbluish !important;
+      }
+    }
+  }
+}
+
+.sideNav {
+  background: $darkbluish !important;
+  .sideNavItem {
+    // border-bottom: 2px solid $diamond !important;
+    background: $toaster !important;
+    color: $darkbluish !important;
+    &:hover {
+      background: $darkbluish !important;
+      color: white !important;
+    }
+  }
+
+  .iconText {
+    display: inline;
+  }
 }
